@@ -1,33 +1,35 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+LIVER TUMOR SEGMENTATION – RESNET 50 
+
+
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Liver tumor segmentation is a crucial task in medical imaging that assists radiologists in diagnosing and treating liver cancer. By accurately identifying and delineating tumors within liver images (e.g., CT or MRI scans), healthcare professionals can make better-informed decisions. This project utilizes the ResNet-50 architecture, a deep convolutional neural network known for its effectiveness in image classification and segmentation tasks, to automate and enhance the segmentation process.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Deep Learning Architecture: Utilizes ResNet-50, which incorporates residual learning to improve training efficiency and model performance.
+Data Augmentation: Implements techniques such as rotation, flipping, and scaling to increase the diversity of the training dataset and improve model generalization.
+Segmentation Accuracy: Aims for high accuracy in identifying tumor boundaries, reducing false positives and negatives.
+Visualization Tools: Provides tools for visualizing segmentation results and model predictions, enhancing interpretability.
+Cross-Validation: Employs k-fold cross-validation to ensure the robustness and reliability of the model performance.
+User-Friendly Interface: Offers an interface for healthcare professionals to upload images and receive segmentation results easily.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Hardware:
+GPU (e.g., NVIDIA GTX/RTX series) for accelerated training.
+Sufficient RAM (16 GB or more recommended).
+Software:
+Python (3.6 or later)
+Libraries: TensorFlow/Keras, NumPy, OpenCV, Matplotlib, Scikit-learn
+Operating System: Windows, macOS, or Linux
+Dataset:
+A labeled dataset of liver images with annotated tumor regions (e.g., LiTS dataset).
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
+<img width="215" alt="pic" src="https://github.com/user-attachments/assets/a9e98953-c101-41b0-b27b-ced93f7d7e92">
 
 
 ## Output
@@ -35,24 +37,26 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![affect](https://github.com/user-attachments/assets/933f703d-99b5-46f9-b3c8-cff49645e01f)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Performance Metrics: Document metrics like IoU, Dice coefficient, and pixel accuracy achieved during evaluation.
+Visual Outputs: Include sample results showing original images alongside predicted segmentations and ground truth annotations.
+Comparison: Optionally compare the performance against other segmentation methods or architectures to highlight the effectiveness of ResNet-50.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1].Hesamian, M. H., Jia, W., He, X., & Kennedy, P. (2019). Deep learning techniques for medical image segmentation: Achievements and challenges. Journal of Digital Imaging, 32(4), 582-596.
+[2]. Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional networks for biomedical image segmentation. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 234-241.
+[3]. Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A., Ciompi, F., & Ghafoorian, M. (2017). A survey on deep learning in medical image analysis. Medical Image Analysis, 42, 60-88.
+[4]. Kohl, S. A. A., Romera-Paredes, B., Meyer, C., De Fauw, J., Ledsam, J. R., & Maier-Hein, K. H. (2018). A probabilistic U-Net for segmentation of ambiguous images. Advances in Neural Information Processing Systems (NIPS), 6965-6975.
+[5]. Christ, P. F., Elshaer, M. E. A., Ettlinger, F., Tatavarty, S., Bickel, M., Bilic, P., & Menze, B. H. (2017). Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields. International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 415-423.
+[6]. Wang, X., Liu, L., & Cheng, J. Z. (2019). Automated liver tumor segmentation using improved U-Net with data augmentation. Journal of Computer Assisted Tomography, 43(3), 427-434.
+[7]. Zhou, Z., Siddiquee, M. M., Tajbakhsh, N., & Liang, J. (2018). Unet++: A nested U-Net architecture for medical image segmentation. Deep Learning in Medical Image Analysis (DLMIA), 3-11.
+![image](https://github.com/user-attachments/assets/4b41196e-9976-41c2-8459-a5f311a1da10)
+
 
 
 
